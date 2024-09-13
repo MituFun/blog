@@ -3,7 +3,7 @@ title: 使用 Thanos 给大型 MC 存档瘦身
 published: 2024-08-06
 description: '使用 Thanos 给大型 MC 存档瘦身'
 image: ''
-tags: []
+tags: ['Minecraft', 'Thanos']
 category: 'Minecraft'
 draft: false 
 ---
