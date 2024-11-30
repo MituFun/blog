@@ -1,7 +1,7 @@
 ---
-title: 我嘞个逆天bug啊
+title: 关于最近博客搭建出现的Bug
 published: 2024-09-06
-description: '如题'
+description: '未跟进 Cheerio 的更新而修改代码出现的错误'
 image: ''
 tags: ['网络', 'Debug']
 category: '杂谈'
