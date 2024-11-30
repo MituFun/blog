@@ -39,6 +39,11 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
+        name: 'HOME',
+        url: 'https://www.mitufun.top',
+        external: true,
+    },
+    {
         name: 'Yuxin Craft',
         url: 'https://yuxincraft.mitufun.top',
         external: true,
