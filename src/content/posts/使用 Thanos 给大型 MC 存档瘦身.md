@@ -20,7 +20,7 @@ Thanos是一个PHP库，可以自动检测并删除Minecraft世界中未使用�
 
 ## 安装
 
-### 一些必须的环境
+::: important[一些必须的环境]
 
 - PHP 7.4
 - 脑子
@@ -28,7 +28,7 @@ Thanos是一个PHP库，可以自动检测并删除Minecraft世界中未使用�
 
 顺带一提，这个 php 我是用宝塔面板装的（
 
-
+:::
 
 ### 开始
 
@@ -46,13 +46,17 @@ composer require aternos/thanos
 
 ### 使用
 
-在 **根目录下** 运行
+::: caution
+
+以下命令必须在项目根目录下运行。
+
+运行前关闭游戏。
+
+:::
 
 ```bash
 ./vendor/aternos/thanos/thanos.php 世界文件夹名称 输出文件夹名称
 ```
-
-**运行之前记得关掉游戏**
 
 等待一段时间，可能要很久，当出现 `Removed xxx chunks in xxx seconds` 时即说明优化完成。此时输出文件夹内就是优化完的存档。
 

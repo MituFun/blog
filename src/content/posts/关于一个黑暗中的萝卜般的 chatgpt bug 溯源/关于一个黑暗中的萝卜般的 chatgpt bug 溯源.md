@@ -30,9 +30,11 @@ draft: false
 
 ---
 
-进一步搜索，发现了一个 [github 仓库](https://github.com/SIXiaolong1117/WhisperPythonScript/blob/master/v2mkv_s.py)。
+进一步搜索，发现了一个 github 仓库。
 
-其代码中 49-54 行如下：
+::github{repo="SIXiaolong1117/WhisperPythonScript"}
+
+其 v2mkv_s.py 代码中 49-54 行如下：
 
 ```python
 # 遍历生成的文本结果，并将其添加到 SRT 对象中
@@ -43,7 +45,9 @@ for idx, segment in enumerate(result["segments"]):
             continue
 ```
 
-并且此仓库是为 [openai 开源的一个名为 Whisper 的语音识别工具](https://github.com/openai/whisper) 编写的脚本。
+并且此仓库是为 openai 开源的一个名为 Whisper 的语音识别工具编写的脚本。
+
+::github{repo="openai/whisper"}
 
 ---
 
